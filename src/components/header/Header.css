@@ -1,0 +1,106 @@
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    padding: 16px;
+    background-color: #121212;
+    padding: 12px;
+    border-radius: 8px;
+    max-width: 80vw;
+    margin-right: 15px;
+    margin-left: 330px;
+}
+
+.header__navigation .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__navigation .navigation .arrow-left {
+    margin-right: 1.25rem;
+}
+
+.arrow-left, .arrow-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background-color: rgba (0, 0, 07);
+    background: #131313;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.header__login {
+    display: flex;
+    align-items: center;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 8px;
+    background-color: #242424;
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header__search img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.header__search input {
+    background: transparent;
+    border: none;
+    padding: 0 100px 0 12px;
+    color: #ffffff;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+}
+
+.header__login .subscribe {
+    margin-right: 32px;
+    background-color: transparent;
+    border: none;
+    color: #a7a7a7;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.header__login .login {
+    width: 100px;
+    height: 48px;
+    border: none;
+    border-radius: 40px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.subscribe, .login{
+    cursor: pointer;
+}
+
+.header__search:hover {
+    border: 1px solid #ffffff;
+}
+
+.header__login .subscribe:hover {
+    color: #ffffff;
+    transition: transform.2s ease-in-out;
+}
+
+.header__login .login:hover {
+    transform: scale(.9);
+    transition: transform.2s ease-in-out;
+}
